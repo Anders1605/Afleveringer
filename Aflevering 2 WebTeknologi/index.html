@@ -1,0 +1,49 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- sikrer at sitet er responsivt-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Aflevering 2</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+                <h1 id="Overskrift">Afleveringsopgave 2 - Anders Otte</h1>
+
+                <div id="userSelect">
+                <label for ="userSelect"> Choose an Album: </label>
+                <select name="Albums" id="userSelectMenu">
+                    <option value="" disabled selected>Select an Album</option>
+                    <option value=0>Greatest Hits </option>
+                    <option value=1>Wild Cherry </option>
+                    <option value=2>Meteora </option>
+                    <option value=3>Top gun - Motion Picture soundtrack </option>
+                    <option value=4> Hjertestarter - Bonus Edition </option>
+                    <option value=5>USADSB </option>
+                    <option value=6>Joyride </option>
+                    <option value=7>Slippery when wet </option>
+                    <option value=8>Crazy World </option>
+                    <option value=9>The razors edge </option>
+                </select>
+                </div>
+
+                <br>
+
+                <!--Div til manipulation/indsættelse af data fra .JSON via JS script-->
+                <div id="main-content">
+                    <p><em>Content will be shown here</em></p>
+                </div>
+
+                <br> 
+                <!--Knap til at vise tracklist-->
+                <button id="trackSelect">Show tracklist?</button>
+
+                <br>
+                <!--div til at indsættelse af tracklisten fra .JSON-->
+                <div id="trackContainer">
+                    <p></p>
+                </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
